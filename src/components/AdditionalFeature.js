@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addFeature } from "../actions/featuresActions";
 
 const AdditionalFeature = (props) => {
-    //const state = useSelector(state => state);
+    //const state = useSelector(state => state);// I can use useselector or mapstatetoprops instead of passing props from parent
     const dispatch = useDispatch();
     return (
         <li>
